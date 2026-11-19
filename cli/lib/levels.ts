@@ -11,6 +11,12 @@ export interface LevelMetadata {
 // and write-up have all been reviewed and reproduced from a clean checkout.
 export const levels: readonly LevelMetadata[] = [
   {
+    slug: "hello-ethernaut",
+    name: "Hello Ethernaut",
+    vulnerability: "Setup / blockchain interaction",
+    status: "in-progress",
+  },
+  {
     slug: "reentrance",
     name: "Re-entrancy",
     vulnerability: "Reentrancy / unsafe external call ordering",

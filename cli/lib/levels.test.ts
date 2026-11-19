@@ -9,6 +9,6 @@ describe("level registry", () => {
   });
 
   it("does not claim unfinished work is verified", () => {
-    expect(levels.every((level) => level.status === "planned")).toBe(true);
+    expect(levels.every((level) => level.status !== "verified")).toBe(true);
   });
 });

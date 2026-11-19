@@ -93,6 +93,7 @@ Every level follows the same evidence chain:
 
 | Priority | Level | Vulnerability | Status | Exploit | Test | Write-up |
 | --- | --- | --- | --- | --- | --- | --- |
+| Foundation | Hello Ethernaut | Setup / blockchain interaction | In progress | N/A | [Foundry test](test/Level0.t.sol) | — |
 | 1 | Re-entrancy | Reentrancy / unsafe external call ordering | Planned | — | — | — |
 
 Additional levels will enter the matrix when their learning session begins.
