@@ -8,7 +8,12 @@ describe("level registry", () => {
     expect(new Set(slugs).size).toBe(slugs.length);
   });
 
-  it("does not claim unfinished work is verified", () => {
-    expect(levels.every((level) => level.status !== "verified")).toBe(true);
+  it("only marks reviewed work as verified", () => {
+    expect(levels.find((level) => level.slug === "hello-ethernaut")?.status).toBe(
+      "verified",
+    );
+    expect(levels.find((level) => level.slug === "reentrance")?.status).toBe(
+      "planned",
+    );
   });
 });

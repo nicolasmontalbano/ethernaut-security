@@ -11,10 +11,11 @@ remediation, and clear risk communication—to EVM security.
 
 ## Current status
 
-This repository is in its foundation phase. No Ethernaut level is claimed as
-completed yet. A level is marked **verified** only when its vulnerable setup,
-exploit, impact assertions, remediation analysis, CLI path, and professional
-write-up can be reproduced from a clean checkout.
+This repository is in its foundation phase. Level 0 has been verified as an
+onboarding workflow; no vulnerability level is claimed as completed yet. A
+level is marked **verified** only when its applicable setup, interaction or
+exploit, assertions, remediation analysis, commands, and professional write-up
+can be reproduced and reviewed.
 
 ## Why this project
 
@@ -93,7 +94,7 @@ Every level follows the same evidence chain:
 
 | Priority | Level | Vulnerability | Status | Exploit | Test | Write-up |
 | --- | --- | --- | --- | --- | --- | --- |
-| Foundation | Hello Ethernaut | Setup / blockchain interaction | In progress | N/A | [Foundry test](test/Level0.t.sol) | — |
+| Foundation | Hello Ethernaut | Setup / blockchain interaction | Verified | [Foundry script](script/Level0Solution.s.sol) | [Foundry test](test/Level0.t.sol) | [Write-up](writeups/level-00-hello-ethernaut.md) |
 | 1 | Re-entrancy | Reentrancy / unsafe external call ordering | Planned | — | — | — |
 
 Additional levels will enter the matrix when their learning session begins.

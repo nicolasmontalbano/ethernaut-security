@@ -14,7 +14,7 @@ export const levels: readonly LevelMetadata[] = [
     slug: "hello-ethernaut",
     name: "Hello Ethernaut",
     vulnerability: "Setup / blockchain interaction",
-    status: "in-progress",
+    status: "verified",
   },
   {
     slug: "reentrance",
