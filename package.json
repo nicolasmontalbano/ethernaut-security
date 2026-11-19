@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "cli": "tsx scripts/cli.ts",
+    "cli": "tsx cli/index.ts",
     "levels": "npm run cli -- levels",
     "test": "vitest run",
     "test:watch": "vitest",

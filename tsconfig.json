@@ -13,6 +13,6 @@
     "rootDir": ".",
     "types": ["node", "vitest/globals"]
   },
-  "include": ["scripts/**/*.ts"]
+  "include": ["cli/**/*.ts"]
 }
 

@@ -31,4 +31,3 @@ program.parseAsync(process.argv).catch((error: unknown) => {
   console.error(`CLI failed: ${message}`);
   process.exitCode = 1;
 });
-

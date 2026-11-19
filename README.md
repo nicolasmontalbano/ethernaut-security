@@ -36,7 +36,7 @@ Solana, TON, Tron, or regulated tokenization infrastructure.
 src/levels/       Local copies or minimal reproductions of vulnerable contracts
 src/exploits/     Solidity exploit contracts
 test/             Foundry exploit and remediation tests
-scripts/          Strict TypeScript CLI and per-level automation
+cli/              Strict TypeScript CLI and per-level automation
 writeups/         Professional English-language security analyses
 ```
 
